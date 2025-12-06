@@ -38,7 +38,8 @@ const projects = [
     tech: ['Django', 'MySQL', 'JavaScript', 'HTML/CSS', 'Bootstrap', 'Chart.js'],
     github: 'https://github.com/siddheshvaishnav/inventory-management',
     demo: 'https://inventory-mgmt-demo.herokuapp.com',
-    category: 'Full-Stack'
+    category: 'Full-Stack',
+    image: '/profile.png'
   }
 ]
 
@@ -73,12 +74,18 @@ export default function Projects() {
             >
               {/* Project Image */}
               <div className="h-48 relative overflow-hidden bg-gray-100 dark:bg-gray-800 group">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 flex items-center justify-center">
+                    <Code className="text-white" size={48} />
+                  </div>
+                )}
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300" />
                 <div className="absolute top-4 right-4 floating-animation z-10">
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg">

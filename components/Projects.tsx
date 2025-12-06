@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ExternalLink, Github, Code } from 'lucide-react'
+import Image from 'next/image'
 
 const projects = [
   {
@@ -10,7 +11,8 @@ const projects = [
     tech: ['Next.js 14', 'TypeScript', 'Supabase', 'OpenAI API', 'Prisma', 'Tailwind CSS', 'Stripe', 'BullMQ', 'Redis'],
     github: 'https://github.com/siddhesh3940/Freelance_crm_sem5',
     demo: 'https://freelancehub-crm.vercel.app',
-    category: 'Full-Stack'
+    category: 'Full-Stack',
+    image: '/freelancehub-crm.png'
   },
   {
     title: 'AI Image Enhancer',
@@ -18,7 +20,8 @@ const projects = [
     tech: ['Python', 'FastAPI', 'Next.js', 'PyTorch', 'OpenCV', 'TensorFlow'],
     github: 'https://github.com/siddhesh3940/ai_image_enhancer',
     demo: 'https://ai-enhancer-demo.vercel.app',
-    category: 'AI/ML'
+    category: 'AI/ML',
+    image: '/ai-image-enhancer.png'
   },
   {
     title: 'Traffic Optimization System',
@@ -26,7 +29,8 @@ const projects = [
     tech: ['Flask', 'MySQL', 'OpenCV', 'Python', 'Computer Vision', 'Machine Learning'],
     github: 'https://github.com/siddhesh3940/ai-traffic-monitoring-system',
     demo: 'https://traffic-optimizer-demo.herokuapp.com',
-    category: 'Computer Vision'
+    category: 'Computer Vision',
+    image: '/traffic-system.png'
   },
   {
     title: 'Inventory Management System',
@@ -67,14 +71,17 @@ export default function Projects() {
               transition={{ duration: 0.8, delay: index * 0.2 }}
               className="glass-effect rounded-2xl overflow-hidden shadow-lg h-[500px] flex flex-col"
             >
-              {/* Project Image Placeholder */}
-              <div className="h-48 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20 transition-all duration-300" />
-                <div className="absolute inset-0 flex items-center justify-center transition-transform duration-300">
-                  <Code className="text-white drop-shadow-lg" size={48} />
-                </div>
-                <div className="absolute top-4 right-4 floating-animation">
-                  <span className="glass-effect text-white px-3 py-1 rounded-full text-sm font-medium glow-effect">
+              {/* Project Image */}
+              <div className="h-48 relative overflow-hidden bg-gray-100 dark:bg-gray-800 group">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-all duration-300" />
+                <div className="absolute top-4 right-4 floating-animation z-10">
+                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg">
                     {project.category}
                   </span>
                 </div>

@@ -8,15 +8,15 @@ const projects = [
     title: 'FreelanceHub CRM',
     description: 'AI-powered CRM platform for freelancers with intelligent client management, project tracking, automated invoice generation, Stripe payments, and real-time updates.',
     tech: ['Next.js 14', 'TypeScript', 'Supabase', 'OpenAI API', 'Prisma', 'Tailwind CSS', 'Stripe', 'BullMQ', 'Redis'],
-    github: 'https://github.com/siddhesh3940/freelancehub-crm',
+    github: 'https://github.com/siddhesh3940/Freelance_crm_sem5',
     demo: 'https://freelancehub-crm.vercel.app',
     category: 'Full-Stack'
   },
   {
-    title: 'AI Video/Image Enhancer',
-    description: 'Advanced AI-powered application for enhancing video and image quality using deep learning techniques. Features real-time processing and multiple enhancement algorithms.',
+    title: 'AI Image Enhancer',
+    description: 'Advanced AI-powered application for enhancing image quality using deep learning techniques. Features real-time processing and multiple enhancement algorithms.',
     tech: ['Python', 'FastAPI', 'Next.js', 'PyTorch', 'OpenCV', 'TensorFlow'],
-    github: 'https://github.com/siddheshvaishnav/ai-enhancer',
+    github: 'https://github.com/siddhesh3940/ai_image_enhancer',
     demo: 'https://ai-enhancer-demo.vercel.app',
     category: 'AI/ML'
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'Traffic Optimization System',
     description: 'Smart traffic management system using computer vision and machine learning to optimize traffic flow and reduce congestion in urban areas.',
     tech: ['Flask', 'MySQL', 'OpenCV', 'Python', 'Computer Vision', 'Machine Learning'],
-    github: 'https://github.com/siddheshvaishnav/traffic-optimizer',
+    github: 'https://github.com/siddhesh3940/ai-traffic-monitoring-system',
     demo: 'https://traffic-optimizer-demo.herokuapp.com',
     category: 'Computer Vision'
   },

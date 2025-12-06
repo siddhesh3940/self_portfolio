@@ -5,6 +5,14 @@ import { ExternalLink, Github, Code } from 'lucide-react'
 
 const projects = [
   {
+    title: 'FreelanceHub CRM',
+    description: 'AI-powered CRM platform for freelancers with intelligent client management, project tracking, automated invoice generation, Stripe payments, and real-time updates.',
+    tech: ['Next.js 14', 'TypeScript', 'Supabase', 'OpenAI API', 'Prisma', 'Tailwind CSS', 'Stripe', 'BullMQ', 'Redis'],
+    github: 'https://github.com/siddhesh3940/freelancehub-crm',
+    demo: 'https://freelancehub-crm.vercel.app',
+    category: 'Full-Stack'
+  },
+  {
     title: 'AI Video/Image Enhancer',
     description: 'Advanced AI-powered application for enhancing video and image quality using deep learning techniques. Features real-time processing and multiple enhancement algorithms.',
     tech: ['Python', 'FastAPI', 'Next.js', 'PyTorch', 'OpenCV', 'TensorFlow'],

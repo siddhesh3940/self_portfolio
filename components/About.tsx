@@ -39,7 +39,7 @@ export default function About() {
                   <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Education</h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     <strong>BE Computer Engineering</strong><br />
-                    Vidyavardhini's College of Engineering and Technology (VCET), Mumbai<br />
+                    Vidyavardhini&apos;s College of Engineering and Technology (VCET), Mumbai<br />
                     Expected Graduation: 2027
                   </p>
                 </div>
@@ -65,7 +65,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Interests</h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Beyond technology, I'm passionate about music and singing. I've won several competitions 
+                    Beyond technology, I&apos;m passionate about music and singing. I&apos;ve won several competitions 
                     including Runner-up at Aurangabad Idol and Winner at Zeal College Festival.
                   </p>
                 </div>
@@ -87,7 +87,7 @@ export default function About() {
                 This led me to pursue computer engineering with a specialization in AI and ML.
               </p>
               <p>
-                Through my internship at SmartED Innovations and various projects, I've gained 
+                Through my internship at SmartED Innovations and various projects, I&apos;ve gained 
                 hands-on experience in developing AI-powered applications, from image enhancement 
                 systems to traffic optimization solutions.
               </p>

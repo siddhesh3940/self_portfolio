@@ -163,10 +163,10 @@ export default function Contact() {
               className="mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-700 rounded-xl"
             >
               <h4 className="text-lg font-semibold mb-3 text-gray-900 dark:text-white">
-                Let's Collaborate!
+                Let&apos;s Collaborate!
               </h4>
               <p className="text-gray-600 dark:text-gray-300">
-                I'm always open to discussing new opportunities, interesting projects, 
+                I&apos;m always open to discussing new opportunities, interesting projects, 
                 or potential collaborations. Whether you have a project in mind or just 
                 want to connect, feel free to reach out!
               </p>
@@ -227,7 +227,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white transition-colors"
-                  placeholder="What's this about?"
+                  placeholder="What&apos;s this about?"
                 />
               </div>
 

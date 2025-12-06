@@ -38,8 +38,7 @@ const projects = [
     tech: ['Django', 'MySQL', 'JavaScript', 'HTML/CSS', 'Bootstrap', 'Chart.js'],
     github: 'https://github.com/siddheshvaishnav/inventory-management',
     demo: 'https://inventory-mgmt-demo.herokuapp.com',
-    category: 'Full-Stack',
-    image: '/profile.png'
+    category: 'Full-Stack'
   }
 ]
 

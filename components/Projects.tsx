@@ -77,9 +77,9 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-all duration-300" />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300" />
                 <div className="absolute top-4 right-4 floating-animation z-10">
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg">
                     {project.category}

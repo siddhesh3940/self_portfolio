@@ -8,7 +8,7 @@ export default function Hero() {
   const handleDownloadResume = () => {
     // Create a link to download resume
     const link = document.createElement('a')
-    link.href = '/resume.pdf'
+    link.href = '/Siddhesh_Vaishnav_Resume1.pdf'
     link.download = 'Siddhesh_Vaishnav_Resume.pdf'
     link.click()
   }
